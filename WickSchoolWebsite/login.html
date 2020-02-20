@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Member Log In</title>
+  <meta name="description" content="WickSchool.com">
+  <meta name="keywords" content="Denver,Littleton,CO,Colorado,Wick,WickSchool,Irish,Dance,Oireachtas,Feis,Rince,TCRG,T.C.R.G.,ADCRG,A.D.C.R.G.,Linnane Wick">
+  <meta name="Identifier-URL" content="http://www.WickSchool.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<script src="./js/SysFunctions.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Wick School of Irish Dance</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html#about">ABOUT</a></li>
+          <li><a href="index.html#register">CLASSES</a></li>
+          <li><a href="index.html#instructors">TEACHERS</a></li>
+          <li><a href="index.html#locations">LOCATIONS</a></li>
+          <li><a href="#">LOG IN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br/>
+  <br/>
+  <div class="loginform">
+    <div class="img"></div>
+    <div class="container">
+      <h2>Login</h2>
+      <div class="row">
+        <form class="col-sm-6">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="pass">Password:</label>
+            <input type="password" class="form-control" id="pass">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+          <br/>
+          <br/>
+          <a id="forgot" href="forgotpassword.html">Forgot Password?</a>
+        </form>
+        <div class="col-sm-6">
+          <img src="images/logo.png" alt="Wick School" width="737" height="200"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center page-footer" id="contact">
+    <div class="col-sm-12">
+      <p>Linnane Wick, T.C.R.G.<br/>
+        Linnane@WickSchool.com <br/>
+        303-987-2427 <br/>
+        <br/>
+        PO Box 101834 <br/>
+        Denver, CO 80250</p>
+        <div>
+          <a href="https://www.facebook.com/wickschoolcolorado"><i class="fa fa-facebook-official" style="font-size:30px"></i></a> <a href="https://www.instagram.com/wickirishdance/"><i class="fa fa-instagram" style="font-size:30px"></i></a>
+        </div>
+      </div>
+      <address class="footer-copyright">&copy; 2017</address>
+      <script src="scripts/login.js"></script>
+    </body>
+    </html>

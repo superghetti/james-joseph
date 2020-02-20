@@ -1,0 +1,250 @@
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    background: url("../images/img19.jpg") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 0px -350px;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:3;
+}
+
+.jumbotron{
+  position: relative;
+  background-color: #FFCC66;
+  color: #003366;
+  padding: 100px 25px;
+  margin-bottom: 0;
+}
+
+.jumbotron .container{
+  position: relative;
+  z-index: 4;
+}
+
+.carousel-control.right, .carousel-control.left{
+  background-image: none;
+  color: #336699;
+}
+
+#about{
+  /* background-color: #72CDF4; */
+  /* background-color: #FFCC66; */
+  position: relative;
+  padding: 5%;
+}
+
+#about h2{
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#about .img{
+  margin-bottom: 0px;
+  opacity: 0.2;
+  color: #fff;
+  background: url("../images/img19.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 0px -80px;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+#about .container{
+  /* margin: 0; */
+  position: relative;
+  z-index: 2;
+}
+
+#summary{
+  float: left;
+  width: 40%;
+  font-size: 1.5em;
+  text-align: center;
+  /* margin: 0 5% 0 5%; */
+  color: #003366;
+  /* padding: 5%; */
+}
+#myCarousel{
+  float: right;
+  width: 50%;
+  margin: auto;
+}
+
+#instructors{
+  clear:both;
+  /* background-color: #72CDF4; */
+  /* background-color: #6699ff; */
+  padding-bottom: 2%;
+  position: relative;
+}
+
+#instructors .img{
+  margin-bottom: 0px;
+  opacity: 0.2;
+  color: #fff;
+  background: url("../images/img5.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+#instructors .container{
+  position: relative;
+  z-index: 2;
+}
+
+#instructors p{
+  background-color: white;
+  padding: 5px;
+}
+
+#instructors .blurb{
+  text-align: center;
+  margin: auto;
+}
+
+#register{
+  clear:both;
+  background-color: #FFCC66;
+  padding: 5%;
+  position: relative;
+}
+
+#register .img{
+  margin-bottom: 0px;
+  opacity: 0.2;
+  color: #fff;
+  background: url("../images/img7.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+#register .container{
+  position: relative;
+  z-index: 2;
+}
+
+#locations{
+  clear:both;
+  background-color: #FFCC66;
+  padding: 5%;
+  position: relative;
+}
+
+#locations .img{
+  margin-bottom: 0px;
+  opacity: 0.2;
+  color: #fff;
+  background: url("../images/img8.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+#locations .container{
+  position: relative;
+  z-index: 2;
+}
+
+.location{
+  border-style: solid;
+  border-color: #003366;
+  border-radius: 5px;
+  margin: 2px;
+  text-align: center;
+  background-color: #FFCC66;
+}
+
+#contact{
+  /* background-color: #72CDF4; */
+}
+
+.mapcontainer{
+  display: flex;
+  justify-content: center;
+}
+
+#myNavbar ul li{
+  float: left;
+}
+
+.navbar{
+  margin-bottom: 0;
+  background-color: #003366;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand{
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a{
+  background-color: #FFCC66 !important;
+  color: #003366 !important;
+}
+
+.navbar-default .navbar-toggle{
+  border-color: transparent;
+  color: #FFCC66 !important;
+}
+
+.fa {
+  margin: 10px;
+}
+
+@media (max-width: 1230px){
+  .jumbotron-billboard .img{
+    background-position: 0px 0px;
+  }
+}
+
+@media (max-width: 1000px){
+  #summary{
+    clear: both;
+    width: 100%;
+  }
+  #myCarousel{
+    float: none;
+    width: 100%;
+  }
+  .carousel-control{
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 765px){
+  .location{
+    float: left;
+  }
+}

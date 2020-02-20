@@ -1,0 +1,69 @@
+#myNavbar ul li{
+  float: left;
+}
+
+.navbar{
+  margin-bottom: 0;
+  background-color: #003366;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand{
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a{
+  background-color: #FFCC66 !important;
+  color: #003366 !important;
+}
+
+.navbar-default .navbar-toggle{
+  border-color: transparent;
+  color: #FFCC66 !important;
+}
+
+#contact{
+  clear: both;
+  background-color: #72CDF4;
+  padding-top: 5px;
+}
+
+#space{
+  clear: both;
+}
+
+.loginform .img{
+  margin-bottom: 0px;
+  opacity: 0.2;
+  color: #fff;
+  background: url("../images/img5.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+.loginform{
+  clear:both;
+  background-color: #FFCC66;
+  padding: 5%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.loginform .container{
+  position: relative;
+  z-index: 2;
+}
+
+#forgot{
+  color: black;
+  size: 24px;
+}

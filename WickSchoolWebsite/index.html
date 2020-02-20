@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+  <script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+  <title>The Wick School of Irish Dance</title>
+  <meta name="description" content="WickSchool.com">
+  <meta name="keywords" content="Denver,Littleton,CO,Colorado,Wick,WickSchool,Irish,Dance,Oireachtas,Feis,Rince,TCRG,T.C.R.G.,ADCRG,A.D.C.R.G.,Linnane Wick">
+  <meta name="Identifier-URL" content="http://www.WickSchool.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<script src="./js/SysFunctions.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!-- The navigation bar - includes home links and inter-page links. Collapses when page reaches a certain size.-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Wick School of Irish Dance</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#register">CLASSES</a></li>
+          <li><a href="#instructors">TEACHERS</a></li>
+          <li><a href="#locations">LOCATIONS</a></li>
+          <li><a href="login.html">LOG IN</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- The main title of the page. -->
+  <div class="jumbotron jumbotron-billboard text-center">
+    <div class="img"></div>
+    <div class="container">
+      <h1>Wick School of Irish Dance</h1>
+      <p>Celebrating 30 Years of Irish Dance!</p>
+    </div>
+  </div>
+  <!-- The about. Includes a brief blurb about the Wick School and an image carousel - a continuous slideshow that keeps rotating
+  through pictures of various dancers. -->
+  <div class="container-fluid" id="about">
+    <div class="img"></div>
+    <div class="container">
+      <h2>Who We Are:</h2>
+      <div id="summary">
+        <p>The Wick School promotes advancement of Irish dance.
+          Irish stepdance is a traditional form of dance that people
+          have been enjoying for centuries. A weekly class introduces
+          children to all the basic steps. They will also discover a
+          form of music that they rarely hear on the radio, but is fun,
+          lively, and energetic. It's wholesome, it's social, and it's
+          a great cultural experience!</p>
+        </div>
+
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+          </ol> -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/img1.jpg"/>
+            </div>
+            <div class="item">
+              <img src="images/img2.jpg"/>
+            </div>
+            <div class="item">
+              <img src="images/img3.jpg"/>
+            </div>
+            <div class="item">
+              <img src="images/img4.jpg"/>
+            </div>
+            <div class="item">
+              <img src="images/img5.jpg"/>
+            </div>
+            <div class="item">
+              <img src="images/img6.jpg"/>
+            </div>
+            <div class="item">
+              <img src="images/img12.jpg"/>
+            </div>
+            <div class="item">
+              <img src="images/img13.jpg"/>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- A form that one may fill to get more info on classes -->
+    <div class="container-fluid" id="register">
+      <div class="img"></div>
+      <div class="container">
+        <h2>Interested? Fill out this form!</h2>
+        <div id="reigsterform">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email: </label>
+              <div class="col-sm-10">
+                <input type="email" name="email" id="email" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="confirmemail">Confirm Email: </label>
+              <div class="col-sm-10">
+                <input type="email" name="confirmemail" id="confirmemail" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="name">Name of Person Filling out Form*: </label>
+              <div class="col-sm-10">
+                <input type="text" name="name" id="name" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="phone">Phone Number: </label>
+              <div class="col-sm-10">
+                <input type="tel" name="phone" id="phone" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="zip">Zip Code: </label>
+              <div class="col-sm-10">
+                <input type="text" name="zip" id="zip" class="form-control">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="reset" class="btn btn-default">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Brief blurbs about each instructor at the wick school, with accompanying images. -->
+    <div class="container-fluid" id="instructors">
+      <div class="img"></div>
+      <div class="container">
+        <h2 class="text-center">Instructors and Assistants</h2>
+        <br/>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-sm-4 blurb">
+            <a href="#LWInfo" data-toggle="collapse"><img src="images/LinnaneJoseph.jpg" alt="Linnane Joseph" width="177" height="224"/> </a>
+            <h4><b>Linnane Wick</b>, T.C.R.G.</h4>
+            <div id="LWInfo" class="collapse">
+              <p>Linnane has owned and operated the Wick School in
+                Colorado since 1987. She is an Oireachtas champion,
+                placed top 3 at the North American, and has performed
+                extensively with Green Fields of America, Celtic
+                Thunder, and as a member of Cherish the Ladies. Her
+                performances include appearances at The Washington
+                Irish Folk Festival, The Philadelphia Folk Festival,
+                The Milwalkee Irish Fest, The National Folk Festival,
+                and The White House.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 blurb">
+            <a href="#MSInfo" data-toggle="collapse"><img src="images/MaureenShea3.jpg" alt="Maureen Shea" width="177" height="212"/></a>
+            <h4><b>Maureen Shea</b>, T.C.R.G.</h4>
+            <div id="MSInfo" class="collapse">
+              <p>Maureen began dancing with the Wick School in 1987
+                soon after Linanne opened her school.  She went on
+                to rise through the competitive ranks regionally,
+                nationally and internationally.  With numerous world
+                qualifications, a regional title and many places at
+                the national level, Maureen went on to tour with the
+                Trinity Irish Dance Company out of Chicago.  She
+                traveled with this company for four years and was
+                lucky enough to see numerous parts of the world
+                including tours in Taiwan, Puerto Rico, Canada and
+                the United States.  Maureen has been teaching with
+                the Wick School since 2003 and received her TCRG
+                certification in 2008.  Outside of dancing, Maureen
+                is a Realtor, enjoys running, fitness and travel.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 blurb">
+            <a href="#JOInfo" data-toggle="collapse"><img src="images/JillianOury.jpg" alt="Jillian Oury" width="177" height="212"/></a>
+            <h4><b>Jillian Oury</b></h4>
+            <div id="JOInfo" class="collapse">
+              <p>Jillian Oury Watson started Irish Dancing with the
+                Trinity Academy of Irish Dance at the age of 6 after
+                seeing the dancers practicing on her way out of a
+                gymnastics class at an adjoining gym. She spent many
+                years performing in shows and competing in solo and
+                team competitions with Trinity, ending her solo
+                career with 8 Midwest Regional titles, 4 National
+                titles, 2 All-Ireland titles, and numerous 2nd and
+                3rd place finishes at the World Championships. She
+                also had the privilege of performing with Trinity on
+                the Today Show, Good Morning America, with the
+                Chicago Symphony Orchestra, and at many other
+                exciting venues. In addition to teaching dance,
+                Jillian also teaches middle school mathematics. </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-sm-3">
+            <img src="images/LinnaneJoseph.jpg" alt="Linnane Joseph" width="177" height="224"/>
+          </div>
+          <div class="col-sm-9">
+            <h4><b>Linnane Wick</b>, T.C.R.G.</h4>
+            <p>Linnane has owned and operated the Wick School in Colorado since 1987. She is an Oireachtas champion, placed top 3 at the North American, and has performed extensively with Green Fields of America, Celtic Thunder, and as a member of Cherish the Ladies. Her performances include appearances at The Washington Irish Folk Festival, The Philadelphia Folk Festival, The Milwalkee Irish Fest, The National Folk Festival, and The White House.</p>
+          </div>
+        </div> -->
+        <!-- <br/>
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="images/JillianOury.jpg" alt="Jillian Oury" width="177" height="212"/>
+          </div>
+          <div class="col-sm-9">
+            <h4><b>Jillian Oury</b></h4>
+            <p>Jillian Oury Watson started Irish Dancing with the Trinity Academy of Irish Dance at the age of 6 after seeing the dancers practicing on her way out of a gymnastics class at an adjoining gym. She spent many years performing in shows and competing in solo and team competitions with Trinity, ending her solo career with 8 Midwest Regional titles, 4 National titles, 2 All-Ireland titles, and numerous 2nd and 3rd place finishes at the World Championships. She also had the privilege of performing with Trinity on the Today Show, Good Morning America, with the Chicago Symphony Orchestra, and at many other exciting venues. In addition to teaching dance, Jillian also teaches middle school mathematics. </p>
+          </div>
+        </div> -->
+        <!-- <br/>
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="images/MaureenShea3.jpg" alt="Maureen Shea" width="177" height="212"/>
+          </div>
+          <div class="col-sm-9">
+            <h4><b>Maureen Shea</b></h4>
+            <p>Maureen began dancing with the Wick School in 1987 soon after Linanne opened her school.  She went on to rise through the competitive ranks regionally, nationally and internationally.  With numerous world qualifications, a regional title and many places at the national level, Maureen went on to tour with the Trinity Irish Dance Company out of Chicago.  She traveled with this company for four years and was lucky enough to see numerous parts of the world including tours in Taiwan, Puerto Rico, Canada and the United States.  Maureen has been teaching with the Wick School since 2003 and received her TCRG certification in 2008.  Outside of dancing, Maureen is a Realtor, enjoys running, fitness and travel.  </p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- This one's slightly complicated. What we have here is a bit where we get a Google Maps embed for each location of the
+    school. All but one are hidden at any time. When the user clicks for directions on one location, all of the locations are hidden
+    but the selected one. And so on. -->
+    <div class="container-fluid" id="locations">
+      <div class="img"></div>
+      <div class="container">
+        <h2>Locations and Directions</h2>
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class="col-sm-2 location">
+            Main Denver Location<br/>
+            6460 E. Yale Ave.<br/>
+            Denver, CO 80222<br/>
+              <button type="button" class="btn getdir" id="denver">Get Directions</button>
+              <br/>
+
+            </div>
+            <div class="col-sm-2 location">
+              Colorado Conservatory of Dance<br/>
+              3001 Industrial Lane Unit 12<br/>
+              Broomfield, CO 80020<br/>
+              <button type="button" class="btn getdir" id="broomfield">Get Directions</button>
+            </div>
+            <div class="col-sm-2 location">
+              Dance Academy<br/>
+              8600 Park Meadows Dr.<br/>
+              Lone Tree, CO 80124 <br/>
+              <button type="button" class="btn getdir" id="lonetree">Get Directions</button>
+            </div>
+            <div class="col-sm-2 location">
+              Faith Lutheran Church<br/>
+              17701 W. 16th Ave.<br/>
+              Golden, CO 80401<br/>
+              <button type="button" class="btn getdir" id="golden">Get Directions</button>
+            </div>
+            <div class="col-sm-2 location">
+              Monclaire Recreation Center<br/>
+              729 Ulster Way<br/>
+              Denver, CO 80230<br/>
+              <button type="button" class="btn getdir" id="monclaire">Get Directions</button>
+            </div>
+            <div class="col-sm-1"> </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12 mapcontainer">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.2443399890685!2d-104.91435100000001!3d39.6667179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c876001c0da51%3A0x622fb6f7dfb60171!2s6460+E+Yale+Ave%2C+Denver%2C+CO+80222!5e0!3m2!1sen!2sus!4v1512604865977" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="maps" id="denvermap"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.8525868414836!2d-105.102193!3d39.922315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8ba028b9eb6f%3A0x3612ec6294d23b28!2s3001+Industrial+Ln+%2312%2C+Broomfield%2C+CO+80020!5e0!3m2!1sen!2sus!4v1512606814946" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="maps" id="broomfieldmap"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.97091743108!2d-104.89238398521555!3d39.560263315204466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c85b2eb849461%3A0x811a47420d5439fa!2s8600+Park+Meadows+Dr%2C+Lone+Tree%2C+CO+80124!5e0!3m2!1sen!2sus!4v1512606852252" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="maps" id="lonetreemap"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8449582785906!2d-105.20168728520937!3d39.74313340425419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b84dc56ee8baf%3A0x8e33ca761dae3f4d!2s17701+W+16th+Ave%2C+Golden%2C+CO+80401!5e0!3m2!1sen!2sus!4v1512606930543" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="maps" id="goldenmap"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.549843426212!2d-104.89686808520989!3d39.72729820520392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7c5f06be3133%3A0xb53199d0a5bf0577!2s729+Ulster+Way%2C+Denver%2C+CO+80230!5e0!3m2!1sen!2sus!4v1512606961186" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="maps" id="monclairemap"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer with contact information. Nothing fancy here. -->
+      <div class="container-fluid text-center" id="contact">
+        <h2>Contact Information</h2>
+        <div class="col-sm-12">
+          <p>Linnane Wick, T.C.R.G.<br/>
+            Linnane@WickSchool.com <br/>
+            303-987-2427 <br/>
+            <br/>
+            PO Box 101834 <br/>
+            Denver, CO 80250</p>
+            <div>
+              <a href="https://www.facebook.com/wickschoolcolorado"><i class="fa fa-facebook-official" style="font-size:30px"></i></a> <a href="https://www.instagram.com/wickirishdance/"><i class="fa fa-instagram" style="font-size:30px"></i></a>
+            </div>
+          </div>
+          <address>&copy; 2019</address>
+          <script src="scripts/index.js"></script>
+          <script>
+          $(document).ready(function(){
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event){
+              if(this.hash !== ""){
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                  scrollTop: $(hash).offset().top
+                }, 900, function(){
+                  window.location.hash = hash;
+                });
+              }
+            });
+          })
+        </script>
+        </body>
+        </html>
