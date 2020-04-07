@@ -1,0 +1,14 @@
+#GitIgnore to commit Disco Man
+DiscoMan/[Ll]ibrary
+DiscoMan/[Tt]emp/
+DiscoMan/[Oo]bj/
+DiscoMan/[Bb]uild/
+DiscoMan/[Bb]uilds/
+DiscoMan/[Ll]ogs/
+DiscoMan/[Mm]emoryCaptures/
+
+!DiscoMan/[Aa]ssets/**/*.meta
+
+#DiscoMan/
+
+DiscoMan/[Aa]ssets/TextMesh*Pro/
